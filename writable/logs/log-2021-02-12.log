@@ -1,0 +1,36 @@
+CRITICAL - 2021-02-12 01:14:07 --> Cross-site request forgery validation failed. Required param "state" missing from persistent data.
+#0 C:\xampp\htdocs\CI_new\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\FB.php(42): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\FB->callback()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-12 01:14:13 --> Cross-site request forgery validation failed. Required param "state" missing from persistent data.
+#0 C:\xampp\htdocs\CI_new\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\FB.php(42): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\FB->callback()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-12 01:14:14 --> Cross-site request forgery validation failed. Required param "state" missing from persistent data.
+#0 C:\xampp\htdocs\CI_new\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\FB.php(42): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\FB->callback()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-12 01:14:18 --> Cross-site request forgery validation failed. Required param "state" missing from persistent data.
+#0 C:\xampp\htdocs\CI_new\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\FB.php(42): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\FB->callback()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

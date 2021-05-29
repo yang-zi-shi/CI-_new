@@ -1,0 +1,26 @@
+CRITICAL - 2021-02-02 03:12:13 --> Resolving timed out after 10000 milliseconds
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(228): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQCxpxYInnYvqUI...', 'http://localhos...')
+#5 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\FB.php(42): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\FB->callback()
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FB))
+#8 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#11 {main}
+CRITICAL - 2021-02-02 03:13:59 --> Resolving timed out after 10000 milliseconds
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(228): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQCZTeoqEE_B2hA...', 'http://localhos...')
+#5 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\FB.php(42): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\FB->callback()
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FB))
+#8 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#11 {main}

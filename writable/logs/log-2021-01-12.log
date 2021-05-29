@@ -1,0 +1,68 @@
+CRITICAL - 2021-01-12 22:31:30 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->querytool()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}
+CRITICAL - 2021-01-12 22:32:37 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Users\\X550JX...', 38, Array)
+#1 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(38): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->querytool()
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#7 {main}
+CRITICAL - 2021-01-12 22:34:00 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Users\\X550JX...', 38, Array)
+#1 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(38): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->querytool()
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#7 {main}
+CRITICAL - 2021-01-12 22:34:34 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Users\\X550JX...', 38, Array)
+#1 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(38): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->querytool()
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#7 {main}
+CRITICAL - 2021-01-12 22:35:05 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Users\\X550JX...', 38, Array)
+#1 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(38): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->querytool()
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#7 {main}
+CRITICAL - 2021-01-12 22:35:49 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Users\\X550JX...', 38, Array)
+#1 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(38): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->querytool()
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#7 {main}
+CRITICAL - 2021-01-12 22:36:13 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Users\\X550JX...', 38, Array)
+#1 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(38): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->querytool()
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#7 {main}
+CRITICAL - 2021-01-12 22:48:00 --> Object of class stdClass could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->querytool()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}

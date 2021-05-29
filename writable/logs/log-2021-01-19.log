@@ -1,0 +1,155 @@
+CRITICAL - 2021-01-19 06:50:04 --> Unable to connect to the database.
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\X550JX\dev\PHP\cidatabase\app\Models\NewsModel.php(14): CodeIgniter\Model->findAll()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\News.php(15): App\Models\NewsModel->getNews()
+#5 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\News->index()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#10 {main}
+CRITICAL - 2021-01-19 06:50:05 --> Unable to connect to the database.
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\X550JX\dev\PHP\cidatabase\app\Models\NewsModel.php(14): CodeIgniter\Model->findAll()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\News.php(15): App\Models\NewsModel->getNews()
+#5 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\News->index()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#10 {main}
+CRITICAL - 2021-01-19 06:50:23 --> Unable to connect to the database.
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\X550JX\dev\PHP\cidatabase\app\Models\NewsModel.php(14): CodeIgniter\Model->findAll()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\News.php(15): App\Models\NewsModel->getNews()
+#5 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\News->index()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#10 {main}
+CRITICAL - 2021-01-19 08:16:15 --> Unable to connect to the database.
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Database.php(109): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Config.php(148): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Seeder.php(126): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Config.php(180): CodeIgniter\Database\Seeder->__construct(Object(Config\Database), Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(83): CodeIgniter\Database\Config::seeder()
+#5 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#10 {main}
+CRITICAL - 2021-01-19 08:18:23 --> Unable to connect to the database.
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Database.php(109): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Config.php(148): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Seeder.php(126): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Config.php(180): CodeIgniter\Database\Seeder->__construct(Object(Config\Database), Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(83): CodeIgniter\Database\Config::seeder()
+#5 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#10 {main}
+CRITICAL - 2021-01-19 08:19:20 --> Unable to connect to the database.
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Database.php(109): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Config.php(148): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Seeder.php(126): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Config.php(180): CodeIgniter\Database\Seeder->__construct(Object(Config\Database), Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(83): CodeIgniter\Database\Config::seeder()
+#5 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#10 {main}
+CRITICAL - 2021-01-19 08:20:08 --> Unable to connect to the database.
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Database.php(109): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Config.php(148): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Seeder.php(126): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Config.php(180): CodeIgniter\Database\Seeder->__construct(Object(Config\Database), Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(83): CodeIgniter\Database\Config::seeder()
+#5 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#10 {main}
+CRITICAL - 2021-01-19 08:20:48 --> Unable to connect to the database.
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Database.php(109): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Config.php(148): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\Seeder.php(126): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(107): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Seed->run(Array)
+#5 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'SimpleSeeder')
+#8 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\X550JX\dev\PHP\cidatabase\spark(57): CodeIgniter\CLI\Console->run()
+#12 {main}
+CRITICAL - 2021-01-19 08:24:51 --> The specified Seeder is not a valid file: C:\Users\X550JX\dev\PHP\cidatabase\app\Database/Seeds/run.php
+#0 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(84): CodeIgniter\Database\Seeder->call('run')
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#6 {main}
+CRITICAL - 2021-01-19 08:27:23 --> Object of class CodeIgniter\Database\Seeder could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}
+CRITICAL - 2021-01-19 08:28:23 --> Object of class CodeIgniter\Database\Seeder could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}
+CRITICAL - 2021-01-19 08:29:07 --> Object of class CodeIgniter\Database\Seeder could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}
+CRITICAL - 2021-01-19 08:29:17 --> Object of class CodeIgniter\Database\Seeder could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}
+CRITICAL - 2021-01-19 08:30:08 --> Object of class CodeIgniter\Database\Seeder could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}
+CRITICAL - 2021-01-19 21:38:03 --> Object of class CodeIgniter\Database\Seeder could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}
+CRITICAL - 2021-01-19 21:38:48 --> Object of class CodeIgniter\Database\Seeder could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->seedtest()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}

@@ -1,0 +1,12 @@
+CRITICAL - 2021-01-30 00:29:32 --> Unable to connect to the database.
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `email`\n...', Array, false)
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Model.php(436): CodeIgniter\Model->find()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(54): CodeIgniter\Model->findColumn('email')
+#5 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#6 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#10 {main}

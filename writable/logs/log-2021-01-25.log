@@ -1,0 +1,21 @@
+CRITICAL - 2021-01-25 02:11:21 --> Object of class App\Entities\User could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}
+CRITICAL - 2021-01-25 02:11:34 --> Object of class App\Entities\User could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}
+CRITICAL - 2021-01-25 02:26:15 --> Object of class App\Entities\User could not be converted to string
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#5 {main}

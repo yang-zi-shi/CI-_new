@@ -1,0 +1,723 @@
+CRITICAL - 2021-02-24 00:52:17 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 00:52:20 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 00:52:31 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 00:53:11 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 00:53:36 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 00:53:37 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 00:56:01 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 00:59:14 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:01:11 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:01:12 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:01:13 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:01:38 --> Class 'App\Controllers\shopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:01:56 --> Class 'App\Controllers\ShopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:01:57 --> Class 'App\Controllers\ShopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:03:42 --> Class 'App\Controllers\ShopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:03:43 --> Class 'App\Controllers\ShopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:04:19 --> Call to undefined function App\Controllers\ContactModel()
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:04:21 --> Call to undefined function App\Controllers\ContactModel()
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:04:54 --> Class 'App\Controllers\ShopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:08:11 --> Class 'App\Controllers\ShopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:09:55 --> Class 'App\Controllers\ShopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:12:58 --> Class 'App\Controllers\ShopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:13:53 --> Class 'App\Controllers\ShopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:15:45 --> Class 'App\Controllers\ShopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 01:16:13 --> Class 'App\Controllers\ShopModel' not found
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shop()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 19:45:26 --> syntax error, unexpected '?>', expecting :: (T_PAAMAYIM_NEKUDOTAYIM)
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(159): view()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 19:46:43 --> syntax error, unexpected '?>', expecting :: (T_PAAMAYIM_NEKUDOTAYIM)
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(159): view()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 19:46:46 --> syntax error, unexpected '?>', expecting :: (T_PAAMAYIM_NEKUDOTAYIM)
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(159): view()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 19:58:49 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\CI_new\app\Views\buycar.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(162): view()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 20:01:05 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\CI_new\app\Views\buycar.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(162): view()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 20:02:21 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\CI_new\app\Views\buycar.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(162): view()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 20:03:50 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\CI_new\app\Views\buycar.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(162): view()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 20:03:54 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\CI_new\app\Views\buycar.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(162): view()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 20:04:45 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\CI_new\app\Views\buycar.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(162): view()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 20:05:03 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\CI_new\app\Views\buycar.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(162): view()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 20:05:05 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\CI_new\app\Views\buycar.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(162): view()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 20:47:46 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(158): array_push()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 20:51:26 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(158): array_push()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 20:51:51 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(158): array_push()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 20:52:47 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(158): array_push()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:10:01 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 21:12:56 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:13:45 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:13:48 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:15:30 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:16:34 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:16:38 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:18:29 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:18:32 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:19:18 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 21:19:20 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 21:19:45 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:20:15 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:20:19 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:20:52 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:21:11 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:21:54 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-24 21:52:39 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:53:01 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:53:04 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:53:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:53:30 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:54:33 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:54:37 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:56:24 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(156): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:56:28 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(156): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:57:16 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(156): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:57:18 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(156): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:58:06 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(156): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:59:26 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(156): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:59:30 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(156): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 21:59:35 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(156): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 22:20:34 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\CI_new\app\Views\buycar.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(180): view()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 22:21:46 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 22:24:09 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 22:25:06 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 22:25:29 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 22:25:41 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 22:25:45 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(157): count()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 22:26:33 --> array_push() expects parameter 1 to be array, int given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(164): array_push()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 22:27:38 --> array_push() expects parameter 1 to be array, int given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(164): array_push()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 22:28:06 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(164): array_push()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 22:28:14 --> array_push() expects parameter 1 to be array, int given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(164): array_push()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-02-24 22:47:12 --> Use of undefined constant i - assumed 'i' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(164): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->buycar()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-24 22:56:14 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-24 23:28:27 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

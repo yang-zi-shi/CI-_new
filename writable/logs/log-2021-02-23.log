@@ -1,0 +1,8 @@
+CRITICAL - 2021-02-23 23:43:02 --> Use of undefined constant shops - assumed 'shops' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->tsshop()
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

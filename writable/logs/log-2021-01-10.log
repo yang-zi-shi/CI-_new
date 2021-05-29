@@ -1,0 +1,10 @@
+CRITICAL - 2021-01-10 23:04:06 --> Invalid file: cnotant.php
+#0 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cnotant.php')
+#1 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('cnotant', Array, true)
+#2 C:\Users\X550JX\dev\PHP\cidatabase\app\Controllers\Home.php(25): view('cnotant', Array)
+#3 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->test()
+#4 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\X550JX\dev\PHP\cidatabase\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\X550JX\dev\PHP\cidatabase\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\X550JX...')
+#8 {main}

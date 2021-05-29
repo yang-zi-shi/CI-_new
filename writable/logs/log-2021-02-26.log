@@ -1,0 +1,11 @@
+CRITICAL - 2021-02-26 00:58:00 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\CI_new\app\Views\shop_list.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 C:\xampp\htdocs\CI_new\app\Controllers\Home.php(204): view()
+#4 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->shoplist()
+#5 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\xampp\htdocs\CI_new\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CI_new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
