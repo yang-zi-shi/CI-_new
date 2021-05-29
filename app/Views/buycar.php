@@ -32,7 +32,7 @@
 </div>
 <button type="button" class="btn btn-primary">合計金額 <span class="badge badge-secondary"><?=$session->sum ?></span></button>
 <a href="/shop" name="buy" class="btn btn-primary">繼續購買</a>
-<a href="/order" name="c_order" class="btn btn-primary">送出訂單</a>
+
 
 </div>
 </body>

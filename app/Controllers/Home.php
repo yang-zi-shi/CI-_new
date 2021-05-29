@@ -12,12 +12,12 @@ use App\Entities\User;
 
 class Home extends BaseController
 {
-	
-	public function index()
-	{
-		return view('index');
-	}
 
+	public function index(){
+ 
+        return view('pages/index');
+	}
+	
 	public function phpinfo()
 	{
 		phpinfo();

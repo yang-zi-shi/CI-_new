@@ -37,6 +37,7 @@
 <a href="/shoplist" class="btn btn-danger">購物車</a>
 <a href="/clr?del=1" class="btn btn-info">清除購物車</a>
 <a href="/buycarall" class="btn btn-info">一次加入購物車</a>
+<a href="/order" name="c_order" class="btn btn-primary">送出訂單</a>
 </div>
 </div>
 <!--</form>-->
