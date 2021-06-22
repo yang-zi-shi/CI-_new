@@ -53,19 +53,19 @@
           </div>
           <div class="col-md-6 col-md-push-1 probootstrap-animate" data-animate-effect="fadeIn">
             <h2>Get in touch</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+            <p>You can contact us for website or product-related questions or suggestions</p>
             
-            <h4>USA</h4>
+            <h4>Taiwan</h4>
             <ul class="probootstrap-contact-info">
-              <li><i class="icon-pin"></i> <span>198 West 21th Street, Suite 721 New York NY 10016</span></li>
+              <li><i class="icon-pin"></i> <span> Zhongli District,Taoyuan City</span></li>
               <li><i class="icon-email"></i><span>info@domain.com</span></li>
               <li><i class="icon-phone"></i><span>+123 456 7890</span></li>
             </ul>
             
-            <h4>Europe</h4>
+            <h4>Taiwan</h4>
             <ul class="probootstrap-contact-info">
-              <li><i class="icon-pin"></i> <span>198 West 21th Street, Suite 721 New York NY 10016</span></li>
-              <li><i class="icon-email"></i><span>info@domain.com</span></li>
+              <li><i class="icon-pin"></i> <span>Bade District, Taoyuan City</span></li>
+              <li><i class="icon-email"></i><span>info1@domain.com</span></li>
               <li><i class="icon-phone"></i><span>+123 456 7890</span></li>
             </ul>
           </div>

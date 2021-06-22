@@ -54,4 +54,54 @@ class News extends Controller
         echo 1;
         // return view('news/create');
     }
+
+
+    public function ts()
+    {
+        echo view('tsForm');
+    }
+
+    public function toLogin()
+    {
+        //初始化登入資訊值
+        $result = [
+            'result' => false,
+            'errMsg' => '',
+        ];
+ 
+        //存取網頁請求值POST
+        $method = $this->request->getMethod();
+ 
+        //die是一中PHP函數當條件成立後直接跳出
+        //檢查是否為AJAX資訊
+        if (!$this->request->isAJAX()) {
+            die('bad request AJAX');
+        }
+ 
+        //檢查網頁方法是否為POST
+        if ($method != 'post') {
+            die('bad request');
+        }
+ 
+        $postData = $this->request->getJSON();
+        // $user = new \App\Entities\User();
+        
+        $result['result'] =true ;
+        $result['errMsg'] ="測試";
+        // if ($user->doLogin($postData->email, $postData->password)) {
+        //     $result['result'] = true;
+        // } else {
+        //     $result['errMsg'] = '登入失敗，請確認帳戶及密碼是否正確';
+        // }
+ 
+        return $this->response->setJSON($result);
+    }
+
+    public function toLogin1()
+    {
+        $ts = $this->request->getPost('email');
+        $ts1 = $this->request->getPost('password');
+        echo $ts;
+        
+    }
 }

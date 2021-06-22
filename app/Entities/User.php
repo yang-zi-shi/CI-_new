@@ -6,6 +6,7 @@ use CodeIgniter\Entity;
 
 class User extends Entity
 {
+    
     protected $attributes = [
 
         'username' => null,        // Represents a username
@@ -92,6 +93,18 @@ class User extends Entity
             $result['result'] = true;
         }
         return $result;
+    }
+
+    public function isLog1()
+    {
+        $session = session();
+        return $session->has('user');
+    }
+
+    public function isErr()
+    {
+        $session = session();
+        return $session->has('LogiError');
     }
 }
 

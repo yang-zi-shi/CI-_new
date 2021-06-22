@@ -13,13 +13,11 @@
 </head>
 
 <body>
-
- 
-<div class="container" style="border:1px #f00 solid;">
+<div class="container">
 <div class="row">
 <?php foreach ($session -> get('list') as $item ):?>
   <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+  <img class="card-img-top" src="https://fakeimg.pl/350x200/?text=list" alt="crash">
   <div class="card-body">
     <h5 class="card-title">購買結果</h5>
     <p class="card-text">商品編號:<?=$item['id'] ?></p>

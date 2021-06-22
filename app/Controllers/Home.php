@@ -14,41 +14,165 @@ class Home extends BaseController
 {
 
 	public function index(){
- 
         return view('pages/index');
 	}
 	
+	public function toLogin()
+    {
+        //初始化登入資訊值
+        $result = [
+            'result' => false,
+            'errMsg' => '',
+        ];
+ 
+        //存取網頁請求值POST
+        $method = $this->request->getMethod();
+ 
+        //die是一中PHP函數當條件成立後直接跳出
+        //檢查是否為AJAX資訊
+        if (!$this->request->isAJAX()) {
+            die('bad request AJAX');
+        }
+ 
+        //檢查網頁方法是否為POST
+        if ($method != 'post') {
+            die('bad request');
+        }
+ 
+        $postData = $this->request->getJSON();
+        $user = new \App\Entities\User();
+ 
+        if ($user->doLogin($postData->email, $postData->password)) {
+            $result['result'] = true;
+        } else {
+            $result['errMsg'] = '登入失敗，請確認帳戶及密碼是否正確';
+        }
+ 
+        return $this->response->setJSON($result);
+    }
+ 
+    public function toRegister()
+    {
+        //存取網頁請求值POST
+        $method = $this->request->getMethod();
+ 
+        //檢查是否為AJAX資訊
+        if (!$this->request->isAJAX()) {
+            die('bad request AJAX');
+        }
+ 
+        //檢查網頁方法是否為POST
+        if ($method != 'post') {
+            die('bad reqiest');
+        }
+ 
+        $postData = $this->request->getJSON();
+ 
+        $user = new \App\Entities\User();
+ 
+        $doRegist = $user->doRegister((array) $postData);
+ 
+        return $this->response->setJSON($doRegist);
+    }
+
 	public function phpinfo()
 	{
 		phpinfo();
 	}
+
 	public function register()
 	{
-		helper('form');
+		$session = session();
+		$result = [
+            'result' => false,
+            'errMsg' => '',
+		];
+		
+		$method = $this->request->getMethod();
+ 
+        //die是一中PHP函數當條件成立後直接跳出
+        //檢查是否為AJAX資訊
+        if (!$this->request->isAJAX()) {
+            die('bad request AJAX');
+        }
+ 
+        //檢查網頁方法是否為POST
+        if ($method != 'post') {
+            die('bad request');
+        }
+ 
+        $postData = $this->request->getJSON();
 		$model = new UserModel();
-		$ts1 = $this->request->getPost('password');
-		$ts2 = $this->request->getPost('matchpassword');
+		$ts1 =$postData->password;
+		$ts2 =$postData->matchpassword;
+		// $ts1 = $this->request->getPost('password');
+		// $ts2 = $this->request->getPost('matchpassword');
 
 		if ($ts1 === $ts2) {
 			$pas = md5($ts1);
 		}
 
 		$registeruser = [
-			'username' => $this->request->getPost('username'),
-			'email'  => $this->request->getPost('email'),
+			'username' => $postData->username,
+			'email'  => $postData->email,
 			'password'  => $pas,
 			'matchpassword'  => $pas,
-			'address'  => $this->request->getPost('address'),
-			'phone'  => $this->request->getPost('phone'),
-			'IDcard'  => $this->request->getPost('IDcard'),
+			'address'  => $postData->address,
+			'phone'  => $postData->phone,
+			'IDcard'  => $postData->IDcard,
 		];
+		// $registeruser = [
+		// 	'username' => $this->request->getPost('username'),
+		// 	'email'  => $this->request->getPost('email'),
+		// 	'password'  => $pas,
+		// 	'matchpassword'  => $pas,
+		// 	'address'  => $this->request->getPost('address'),
+		// 	'phone'  => $this->request->getPost('phone'),
+		// 	'IDcard'  => $this->request->getPost('IDcard'),
+		// ];
 
 		if (!$model->save($registeruser) === false) {
-			echo view('news/success');
+			if($session->has('user')){
+				$session->remove('user');
+			}
+			$session->remove('LogiError');
+			$result['result'] = true;
+			
 		} else {
-			return view('register', ['errors' => $model->errors()]);
+			//die('bad request AJAX');
+			$result['errMsg'] =$model->errors();
+            $session->set('LogiError', $model->errors());
+			 
 		}
+		return $this->response->setJSON($result);
 	}
+	// public function register()
+	// {
+	// 	//helper('form');
+	// 	$model = new UserModel();
+	// 	$ts1 = $this->request->getPost('password');
+	// 	$ts2 = $this->request->getPost('matchpassword');
+
+	// 	if ($ts1 === $ts2) {
+	// 		$pas = md5($ts1);
+	// 	}
+
+	// 	$registeruser = [
+	// 		'username' => $this->request->getPost('username'),
+	// 		'email'  => $this->request->getPost('email'),
+	// 		'password'  => $pas,
+	// 		'matchpassword'  => $pas,
+	// 		'address'  => $this->request->getPost('address'),
+	// 		'phone'  => $this->request->getPost('phone'),
+	// 		'IDcard'  => $this->request->getPost('IDcard'),
+	// 	];
+
+	// 	if (!$model->save($registeruser) === false) {
+	// 		echo view('news/success');
+	// 	} else {
+	// 		return view('pages/index', ['errors' => $model->errors()]);
+	// 	}
+	// }
 
 	public function regi()
 	{
@@ -57,35 +181,116 @@ class Home extends BaseController
 
 	public function login()
 	{
-		helper('form');
-		$model = new UserModel();
-		$findEmail = $model->findColumn('email');
-		$findPassword = $model->findColumn('password');
-		$postEmail = $this->request->getPost('email');
-		$usr = $model->where('email', $postEmail)->findColumn('username');
-		$postPassword = $this->request->getPost('password');
-		$postPassword = md5($postPassword);
 		$session = session();
-		$session->set('email',$postEmail );
-		$session->set('user',$usr[0] );
+		$model = new UserModel();
+		$result = [
+            'result' => false,
+            'errMsg' => '',
+		];
 		
-		foreach ($findEmail as $value) {
-			if ($value === $postEmail) {
-				$a = "true";
-			} 
+		$method = $this->request->getMethod();
+ 
+        //die是一中PHP函數當條件成立後直接跳出
+        //檢查是否為AJAX資訊
+        if (!$this->request->isAJAX()) {
+            die('bad request AJAX');
+        }
+ 
+        //檢查網頁方法是否為POST
+        if ($method != 'post') {
+            die('bad request');
+        }
+ 
+		$postData = $this->request->getJSON();
+		$postEmail = $postData->email;
+		$findEmail = $model->where('email', $postEmail)->findColumn('email');
+		//  $findEmail1 = $model->findColumn('email');
+		
+		if(is_null($findEmail)){
+			$result['errMsg'] ='此帳號尚未註冊，請先註冊'; 
+			return $this->response->setJSON($result);
 		}
-		foreach ($findPassword as $value) {
-			if ($value === $postPassword) {
-				$c = "true";
-			} 
+        $findPassword = $model->where('email', $postEmail)->findColumn('password');
+		// $findPassword = $model->findColumn('password');
+		
+		//$postEmail = $this->request->getPost('email');
+		$usr = $model->where('email', $postEmail)->findColumn('username');
+		$postPassword = $postData->password;
+		//$postPassword = $this->request->getPost('password');
+		$postPassword = md5($postPassword);
+		
+		
+		if($findEmail[0] == $postEmail){
+			$a = "true";
 		}
+
+		if($findPassword[0] == $postPassword){
+			$c = "true";
+		}
+
+		// foreach ($findEmail1 as $value) {
+		// 	if ($value === $postEmail) {
+		// 		$tss = count($findEmail1);
+		// 	} 
+		// }
+		// foreach ($findPassword as $value) {
+		// 	if ($value === $postPassword) {
+		// 		$c = "true";
+		// 	} 
+		// }
 		
 		if (isset($a,$c)) {
-			echo view('loginSuss');
+			$session->set('email',$postEmail );
+			$session->set('user',$usr[0] );
+			$result['result'] = true;
 		} else   {
-			echo  view('index');
+			$result['errMsg'] = '登入失敗，請確認帳戶及密碼是否正確';
 		}
+
+		return $this->response->setJSON($result);
 	}
+
+	// public function login()
+	// {
+	// 	//helper('form');
+	// 	$model = new UserModel();
+	// 	$findEmail = $model->findColumn('email');
+	// 	$findPassword = $model->findColumn('password');
+	// 	$postEmail = $this->request->getPost('email');
+	// 	$usr = $model->where('email', $postEmail)->findColumn('username');
+	// 	$postPassword = $this->request->getPost('password');
+	// 	$postPassword = md5($postPassword);
+	// 	$session = session();
+		
+		
+	// 	foreach ($findEmail as $value) {
+	// 		if ($value === $postEmail) {
+	// 			$a = "true";
+	// 		} 
+	// 	}
+	// 	foreach ($findPassword as $value) {
+	// 		if ($value === $postPassword) {
+	// 			$c = "true";
+	// 		} 
+	// 	}
+		
+	// 	if (isset($a,$c)) {
+	// 		$session->set('email',$postEmail );
+	// 	    $session->set('user',$usr[0] );
+	// 		return redirect()->to('/');
+	// 	} else   {
+	// 		//return redirect()->to('/');
+    //         echo "false";
+	// 	}
+	// }
+
+	public function logout()
+    {
+        $session = session();
+        $session->remove('user');
+		// $session->destory();
+		return redirect()->to('/');
+    }
 	public function log()
 	{
 		echo env('test');
@@ -103,8 +308,9 @@ class Home extends BaseController
 			'message'  => $this->request->getPost('message'),
 		];
 		if ($model->save($feedback) === true) {
-			echo view('news/success');
-			$this->sendmail($receive);
+			$msg = "我們收到您的表單囉!";
+			echo "<script type='text/javascript'>alert('$msg');location.assign('/cont')</script>";
+			// $this->sendmail($receive);
 		} else {
 			echo view('contact',['errors' => $model->errors()]);
 		}
@@ -314,6 +520,11 @@ class Home extends BaseController
 		$model = new c_orderModel();
 		$order_n = $order_a ='';
 		
+		if($cou == 0){
+			$msg= "請選擇商品後再送出";
+			echo "<script type='text/javascript'>alert('$msg');location.assign('/shop')</script>";
+		}
+
 		for($i = 0;$i <$cou; $i++ ){
 			$order_n .= $order[$i]['name']."--";
 			$order_a .= $order[$i]['amo']."--";
@@ -324,9 +535,13 @@ class Home extends BaseController
 			'總價'  => $session->sum
 		];
 		if ($model->save($c_order) === true) {
-			echo "成功";
+			$msg = "訂單已送出";
+			unset($_SESSION['list']);
+			unset($_SESSION['sum']);
+			echo "<script type='text/javascript'>alert('$msg');location.assign('/shop')</script>";
 		} else {
-			echo "訂單失敗";
+			$msg = "送出訂單失敗";
+			echo "<script type='text/javascript'>alert('$msg');location.assign('/shop');</script>";
 		}
 	}
 }

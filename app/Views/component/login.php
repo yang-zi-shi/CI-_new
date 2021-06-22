@@ -7,7 +7,7 @@
             <div class="probootstrap-modal-flex">
               <div class="probootstrap-modal-figure" style="background-image: url(/img/modal_bg.jpg);"></div>
               <div class="probootstrap-modal-content">
-                <form name="loginForm" class="probootstrap-form">
+                <form  name="loginForm" class="probootstrap-form">
                   <div class="form-group">
                     <input type="text" class="form-control" placeholder="Email" name="email">
                   </div> 
@@ -54,33 +54,33 @@
 
 
 
-        loginForm.onsubmit = function(event) {
+        // loginForm.onsubmit = function(event) {
 
-            let form = event.target;
-            let formData = new FormData(form);
-            let postData = Object.fromEntries(formData);
-            console.log('form', form);
-            console.log('postData', postData);
+        //     let form = event.target;
+        //     let formData = new FormData(form);
+        //     let postData = Object.fromEntries(formData);
+        //     console.log('form', form);
+        //     console.log('postData', postData);
 
-            fetch('/home/toLogin', {
-                body: JSON.stringify(postData),
-                cache: 'no-cache',
-                method: 'POST',
-                headers: {
-                    'content-type': 'application/json ',
-                    "X-Requested-With": "XMLHttpRequest"
-                },
-            }).then(response => response.json()).then(doResultLogin);
-            event.preventDefault();
-        }
-        function doResultLogin(res) {
-            console.log('doResult:', res);
-            if(res.result){
-              location.reload();
-            }else{
-              alert(res.errMsg);
-            }
-        }
+        //     fetch('/home/toLogin', {
+        //         body: JSON.stringify(postData),
+        //         cache: 'no-cache',
+        //         method: 'POST',
+        //         headers: {
+        //             'content-type': 'application/json ',
+        //             "X-Requested-With": "XMLHttpRequest"
+        //         },
+        //     }).then(response => response.json()).then(doResultLogin);
+        //     event.preventDefault();
+        // }
+        // function doResultLogin(res) {
+        //     console.log('doResult:', res);
+        //     if(res.result){
+        //       location.reload();
+        //     }else{
+        //       alert(res.errMsg);
+        //     }
+        // }
         
 
 

@@ -3,10 +3,10 @@
       <div class="row">
         <div class="col-md-6">
           <div class="probootstrap-footer-widget">
-            <h3>Paragraph</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+            <h3>The first one</h3>
+            <p>This is a shopping simulation website can use "FB" login</p>
             <ul class="probootstrap-footer-social">
-              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="/fblogin"><i class="icon-facebook"></i></a></li>
             </ul>
           </div>
         </div>
@@ -14,7 +14,7 @@
       <!-- END row -->
       <div class="row">
         <div class="col-md-12 copyright">
-          <p><small>&copy; 2017 <a href="#">uiCookies:Stack</a>. All Rights Reserved. <br> Designed &amp; Developed with <i class="icon icon-heart"></i> by <a href="https://uicookies.com/">uicookies.com</a></small></p>
+          <p><small>&copy; 2021 .  <br> Designed &amp; Developed with <i class="icon icon-heart"></i> by Zi-yang(Jerry) & Kuan-Te</small></p>
         </div>
       </div>
     </div>

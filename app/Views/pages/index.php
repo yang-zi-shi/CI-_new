@@ -1,6 +1,10 @@
 <?php  $this->extend('layout/default'); ?>
 
-<?php   $this->section('content'); ?>
+<?php  $this->section('content'); ?>
+<?php 
+   $user = new \App\Entities\User();
+   $isLogin1 = $user->isLog1();
+?>
 
   <section class="flexslider">
     <ul class="slides">
@@ -9,7 +13,7 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <div class="probootstrap-slider-text text-center">
-                <h1 class="probootstrap-heading">We Create Interfaces</h1>
+                <h1 class="probootstrap-heading">Our shopping test site</h1>
               </div>
             </div>
           </div>
@@ -20,7 +24,7 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <div class="probootstrap-slider-text text-center">
-                <h1 class="probootstrap-heading">We Design Powerful Experiences</h1>
+                <h1 class="probootstrap-heading">We created a shopping interface</h1>
               </div>
             </div>
           </div>
@@ -32,7 +36,7 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <div class="probootstrap-slider-text text-center">
-                <h1 class="probootstrap-heading">We Bring Ideas To Life</h1>
+                <h1 class="probootstrap-heading">We created a feedback system</h1>
               </div>
             </div>
           </div>
@@ -55,25 +59,34 @@
             <div class="icon"><i class="icon-mobile3"></i></div>
             <div class="text">
               <h3>Responsive Design</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+              <p>We try to build an e-commerce platform</p>
             </div>
           </div>
         </div>
+    <?php if(!$isLogin1): ?>
         <div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
           <div class="service hover_service text-center">
             <div class="icon"><i class="icon-presentation"></i></div>
             <div class="text">
-              <h3>Business Solutions</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+              <h3>Business</h3>
+              <p>This is a commodity platform being tested and our first construction</p>
             </div>
           </div>
         </div>
+    <?php else: ?>
+      <div  id = "shopin" class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
+      <a  href="/shop">
+          <img id="imts" onmouseover="imgac()" onmouseout="imgac1()" style="width: 330px;height:291px;border-radius: 15px;" src="/img/opshop.jpg" alt="shop crash">
+      </a>
+      </div>
+    <?php endif ?>
+
         <div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
           <div class="service hover_service text-center">
             <div class="icon"><i class="icon-circle-compass"></i></div>
             <div class="text">
-              <h3>Brand Identity</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+              <h3>E-commerce feedback</h3>
+              <p>Simulate a feedback system that accepts reviews</p>
             </div>
           </div>
         </div>
@@ -84,46 +97,29 @@
       
   </section>
 
-  <section class="probootstrap-section probootstrap-bg-white ">
+  <section class="probootstrap-section  probootstrap-bg-white">
     <div class="owl-carousel owl-work">
-      <div class="item">
-        <a href="portfolio-single.html">
-          <img src="/img/work_1.jpg" alt="Free Bootstrap Template by uicookies.com">
-        </a>
+      <div class="item carouselfixed">
+          <img src="/img/food1.jpg" alt="image crash">
       </div>
-      <div class="item">
-        <a href="portfolio-single.html">
-          <img src="/img/work_2.jpg" alt="Free Bootstrap Template by uicookies.com">
-        </a>
+      <div class="item carouselfixed">
+          <img src="/img/phone2.jpg" alt="image crash">
       </div>
-      <div class="item">
-        <a href="portfolio-single.html">
-          <img src="/img/work_3.jpg" alt="Free Bootstrap Template by uicookies.com">
-        </a>
+      <div class="item carouselfixed">
+          <img src="/img/food3.jpg" alt="image crash">
       </div>
-      <div class="item">
-        <a href="portfolio-single.html">
-          <img src="/img/work_4.jpg" alt="Free Bootstrap Template by uicookies.com">
-        </a>
+      <div class="item carouselfixed">
+          <img src="/img/juice4.jpg" alt="image crash">
       </div>
-      <div class="item">
-        <a href="portfolio-single.html">
-          <img src="/img/work_5.jpg" alt="Free Bootstrap Template by uicookies.com">
-        </a>
+      <div class="item carouselfixed">
+          <img src="/img/clothes5.jpg" alt="image crash">
       </div>
-      <div class="item">
-        <a href="portfolio-single.html">
-          <img src="/img/work_6.jpg" alt="Free Bootstrap Template by uicookies.com">
-        </a>
-      </div>
-      <div class="item">
-        <a href="portfolio-single.html">
-          <img src="/img/work_7.jpg" alt="Free Bootstrap Template by uicookies.com">
-        </a>
+      <div class="item carouselfixed">
+          <img src="/img/games.jpg" alt="image crash">
       </div>
     </div>
   </section>
-
+  
 <?php echo $this->include('component/testimonial'); ?>
     
 <?php  $this->endSection(); ?>
