@@ -1,1 +1,5 @@
-writable
+.env
+app/Config/Email.php
+app/Controllers/FB.php
+writable/logs
+vendor/
