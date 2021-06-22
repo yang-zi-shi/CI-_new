@@ -372,7 +372,9 @@ class Home extends BaseController
 		// echo var_dump($session->show);
 		// echo var_dump($session->list);
 		//echo var_dump($x);
-		echo view('shop.php',['shop'=>$shops,'id'=>$shop_id,'name'=>$shop_name]);
+		// echo view('shop.php',['shop'=>$shops,'id'=>$shop_id,'name'=>$shop_name]);
+		echo view('pages/shop',['shop'=>$shops,'id'=>$shop_id,'name'=>$shop_name]);
+
 
 	}
 
