@@ -369,11 +369,7 @@ class Home extends BaseController
 		}
 		
 		$session->set('show',$showzero);
-		// echo var_dump($session->show);
-		// echo var_dump($session->list);
-		//echo var_dump($x);
-		// echo view('shop.php',['shop'=>$shops,'id'=>$shop_id,'name'=>$shop_name]);
-		echo view('pages/shop',['shop'=>$shops,'id'=>$shop_id,'name'=>$shop_name]);
+		echo view('shop',['shop'=>$shops,'id'=>$shop_id,'name'=>$shop_name]);
 
 
 	}
@@ -398,6 +394,7 @@ class Home extends BaseController
 		$arr =[];
 		$pass = true;
 		$idx;
+		
 		$list = $session ->list;
 		   if(!empty($session ->list)){
 			
@@ -413,12 +410,15 @@ class Home extends BaseController
 			}
 		}
 	}
-            
-			if ($pass){
-				array_push($list,['id'=>$ts1,'buy'=>$ts,'name'=>$ts2,'amo'=>$ts3]); 
-				$session->set('list',$list);
-			}
-		 //}
+			
+	if($ts3 == 0){
+		$msg = "請選擇商品數量";
+		echo "<script type='text/javascript'>alert('$msg');location.assign('/shop');</script>";
+	}elseif($pass){
+		array_push($list,['id'=>$ts1,'buy'=>$ts,'name'=>$ts2,'amo'=>$ts3]); 
+		$session->set('list',$list);
+	}
+		 
 		 for($i =0;$i < count($list); $i++){
 
 		   $sum += ($list[$i]['buy']*$list[$i]['amo']);
@@ -524,7 +524,7 @@ class Home extends BaseController
 		
 		if($cou == 0){
 			$msg= "請選擇商品後再送出";
-			echo "<script type='text/javascript'>alert('$msg');location.assign('/shop')</script>";
+			echo "<script type='text/javascript'>alert('$msg');location.assign('/shop');</script>";
 		}
 
 		for($i = 0;$i <$cou; $i++ ){
@@ -540,7 +540,7 @@ class Home extends BaseController
 			$msg = "訂單已送出";
 			unset($_SESSION['list']);
 			unset($_SESSION['sum']);
-			echo "<script type='text/javascript'>alert('$msg');location.assign('/shop')</script>";
+			echo "<script type='text/javascript'>alert('$msg');location.assign('/shop');</script>";
 		} else {
 			$msg = "送出訂單失敗";
 			echo "<script type='text/javascript'>alert('$msg');location.assign('/shop');</script>";
