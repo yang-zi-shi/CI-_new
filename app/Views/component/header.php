@@ -17,15 +17,15 @@
         <div id="navbar-collapse" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/">Home</a></li>
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="#" data-toggle="dropdown" class="dropdown-toggle">Pages</a>
               <ul class="dropdown-menu">
                 <li><a href="#">About Us</a></li>
-                <?php if($isLogin): ?>
-                <li><a href="/shop">shop</a></li>
-                <?php endif ?>
+                <?php //if($isLogin): ?>
+                <li><a href="#">shop</a></li>
+                <?php //endif ?>
               </ul>
-            </li>
+            </li> -->
             <li><a href="/cont">Contact</a></li>
 
             <?php if(!$isLogin): ?>

@@ -20,6 +20,26 @@
       box-shadow: 0 4px 6px 0 rgba(0, 140, 186, 0.5), 0 6px 10px 10px rgba(0, 140, 186, 0.5);
       border:3px #cccccc solid;
     }
+
+    .auryang{
+      width:100px;
+      height:100px;
+      border-radius:15px;
+    }
+
+    .aurde{
+      width:100px;
+      height:100px;
+      border-radius:15px;
+    }
+    #author1:hover{
+      box-shadow: 0 4px 6px 0 rgba(0, 140, 186, 0.5), 0 6px 10px 10px rgba(0, 140, 186, 0.5);
+      border:3px #cccccc solid;
+    }
+    #author2:hover{
+      box-shadow: 0 4px 6px 0 rgba(0, 140, 186, 0.5), 0 6px 10px 10px rgba(0, 140, 186, 0.5);
+      border:3px #cccccc solid;
+    }
     </style>
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>

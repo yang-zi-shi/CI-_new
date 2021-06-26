@@ -30,10 +30,16 @@ class UserModel extends Model
     protected $validationMessages = [
         'email'        => [
             'is_unique' => '已註冊過',
-            'valid_email' => '電子郵件格式不符合',
+            'valid_email' => '電子郵件格式不符合'
         ],
         'IDcard'        => [
-            'alpha_numeric' => '身分證格式不符',
+            'alpha_numeric' => '身分證格式不符'
+        ],
+        'matchpassword' =>[
+            'required' => '兩次密碼輸入不同'
+        ],
+        'password' =>[
+            'required' => '密碼請再次確認'
         ]
     ];
     protected $skipValidation = false;

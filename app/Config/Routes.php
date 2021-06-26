@@ -79,6 +79,8 @@ $routes->get('/clr', 'Home::clr');
 $routes->get('/cal', 'Home::cal');
 $routes->get('/buycarall', 'Home::buycarall');
 $routes->get('/order', 'Home::order');
+$routes->get('/auth1', 'Home::auth1');
+$routes->get('/auth2', 'Home::auth2');
 // $routes->match(['get', 'post'], '/fbcallback', 'FB::callback');
 /**
  * --------------------------------------------------------------------

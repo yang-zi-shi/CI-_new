@@ -56,10 +56,14 @@
       <div class="row probootstrap-gutter60">
         <div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
           <div class="service hover_service text-center">
-            <div class="icon"><i class="icon-mobile3"></i></div>
+          <div>
+            <a  href="/auth1">
+            <img id="author1" class="auryang" src="/img/aur_yang.jpg" alt="img crash">
+            </a>
+          </div>
             <div class="text">
-              <h3>Responsive Design</h3>
-              <p>We try to build an e-commerce platform</p>
+              <h3>About Author yang</h3>
+              <p>This is about my web page</p>
             </div>
           </div>
         </div>
@@ -83,10 +87,14 @@
 
         <div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
           <div class="service hover_service text-center">
-            <div class="icon"><i class="icon-circle-compass"></i></div>
+          <div>
+            <a  href="/auth2">
+            <img id="author2" class="aurde" src="/img/aur_kuan_de.jpg" alt="img crash">
+            </a>
+          </div>
             <div class="text">
-              <h3>E-commerce feedback</h3>
-              <p>Simulate a feedback system that accepts reviews</p>
+              <h3>About Author kuan_de</h3>
+              <p>This is about my web page</p>
             </div>
           </div>
         </div>
