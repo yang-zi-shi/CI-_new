@@ -358,6 +358,7 @@ class Home extends BaseController
 		$shop_id = $model->findColumn('pid');
 		$shop_name = $model->findColumn('pname');
 
+
 		 if(isset($session ->list)){
 		   $list=$session ->list;
 	 	   $session->set('list',$list);

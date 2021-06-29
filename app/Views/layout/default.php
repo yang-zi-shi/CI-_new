@@ -68,7 +68,7 @@
   loginForm.onsubmit = function(event) {
     let form = event.target;
     let formData = new FormData(form);
-    console.log('form', formData);
+    //console.log('form', formData);
     let postData = Object.fromEntries(formData);
     // console.log('form', form);
     // console.log('postData', postData);
@@ -85,9 +85,9 @@
     event.preventDefault();
 }
 function doResultLogin(res) {
-    console.log('doResult:', res);
+    //console.log('doResult:', res);
     if(res.result){
-      alert('登入成功'+res.errMsg);
+      alert('登入成功');
       location.reload();
     }else{
       alert(res.errMsg);
@@ -111,7 +111,7 @@ regiForm.onsubmit = function(event) {
     event.preventDefault();
 }
 function doResultSingUp(res) {
-    console.log('doResult:', res);
+    //console.log('doResult:', res);
     if(res.result){
       alert('註冊成功');
       location.reload();

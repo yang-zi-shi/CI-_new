@@ -56,7 +56,7 @@
           <div class="probootstrap-modal-flex">
             <div class="probootstrap-modal-figure" style="background-image: url(/img/modal_bg.jpg);"></div>
             <div class="probootstrap-modal-content">
-              <form name="loginForm"  class="probootstrap-form">
+              <form name="loginForm" method="post"    class="probootstrap-form">
                 <div class="form-group">
                   <input type="text" class="form-control" placeholder="Email" name="email" required>
                 </div>
@@ -99,7 +99,7 @@
           <div class="probootstrap-modal-flex">
             <div class="probootstrap-modal-figure" style="background-image: url(/img/signup.jpg);"></div>
             <div class="probootstrap-modal-content">
-              <form  name="regiForm" class="probootstrap-form">
+              <form  name="regiForm" method="post"  class="probootstrap-form">
                 <div class="form-group">
                   <input type="text" class="form-control" placeholder="username" name="username">
                 </div>
