@@ -23,7 +23,7 @@
   <div class="card-body">
     <h5 class="card-title">購買結果</h5>
     <p class="card-text">商品編號:<?=$item['id'] ?></p>
-    <p class="card-text">商品名稱名稱:<?=$item['name'] ?> </p>
+    <p class="card-text">商品名稱:<?=$item['name'] ?> </p>
     <p class="card-text">商品價格:<?=$item['buy'] ?> </p>
     <p class="card-text">商品數量:<?=$item['amo']?> </p>
   </div>

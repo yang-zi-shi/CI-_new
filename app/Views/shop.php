@@ -78,9 +78,9 @@
 <script src="/js/custom.js"></script>
 <script>
 let item_cont = <?= count($shop);?>;
-
 let pg_ch = Boolean(sessionStorage.getItem('pg_ch'));
 let pg_ch1 = Boolean(sessionStorage.getItem('pg_ch1'));
+
 
 //alert(pg_ch);
 if(item_cont < 7){
@@ -382,9 +382,6 @@ function W_scroll(){
  } 
 }
 W_scroll();
-
-
-
 </script>
 </body>
 </html>
