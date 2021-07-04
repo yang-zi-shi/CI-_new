@@ -81,7 +81,6 @@ let item_cont = <?= count($shop);?>;
 let pg_ch = Boolean(sessionStorage.getItem('pg_ch'));
 let pg_ch1 = Boolean(sessionStorage.getItem('pg_ch1'));
 
-
 //alert(pg_ch);
 if(item_cont < 7){
   let str=`<div class="container">
@@ -136,7 +135,7 @@ function on_pg_ch(){
   let actpg = document.querySelectorAll(".actpg");
     actpg.forEach(
     function(e){
-      e.addEventListener("click", function() {
+      e.addEventListener("click", () => {
         sessionStorage.setItem('pg_ch', 'true');
         pg_ch = true;
       });

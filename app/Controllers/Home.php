@@ -318,7 +318,7 @@ class Home extends BaseController
 		if ($model->save($feedback) === true) {
 			$msg = "我們收到您的表單囉!";
 			echo "<script type='text/javascript'>alert('$msg');location.assign('/cont')</script>";
-			// $this->sendmail($receive);
+			 $this->sendmail($receive);
 		} else {
 			echo view('contact',['errors' => $model->errors()]);
 		}
@@ -384,10 +384,8 @@ class Home extends BaseController
 	}
 
 	public function tsshop(){
-		// $ts = $this->request->getGet('buy');
-		// $ts1 = $this->request->getGet('id');
-		// $ts2 = $this->$data['']
-		echo "測試用目前已封閉";
+		$msg = '商品登入資訊中...';
+		echo "<script type='text/javascript'>alert('$msg');location.assign('/shop');</script>";;
 		
 	}
 
@@ -526,6 +524,7 @@ class Home extends BaseController
 
 	public function order(){
 		$session = session();
+		$c_usr = $session -> get('email');
 		$order = $session ->list;
 		$cou = count($session ->list);
 		$model = new c_orderModel();
@@ -541,6 +540,7 @@ class Home extends BaseController
 			$order_a .= $order[$i]['amo']."--";
 		}
 		$c_order = [
+			'使用者'=>$c_usr,
 			'商品名稱' => $order_n,
 			'數量'  => $order_a,
 			'總價'  => $session->sum

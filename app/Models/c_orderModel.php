@@ -8,7 +8,7 @@ class c_orderModel extends Model
 {
     protected $table         = 'c_order';
     protected $allowedFields = [
-        '商品名稱', '數量', '總價'
+        '使用者','商品名稱', '數量', '總價'
     ];
 
     protected $useTimestamps = true;

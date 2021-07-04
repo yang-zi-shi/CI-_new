@@ -40,6 +40,13 @@
       box-shadow: 0 4px 6px 0 rgba(0, 140, 186, 0.5), 0 6px 10px 10px rgba(0, 140, 186, 0.5);
       border:3px #cccccc solid;
     }
+
+    .galaxy{
+      font-size:20px;
+    }
+    .galaxy:hover{
+      font-size:30px;
+    }
     </style>
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
