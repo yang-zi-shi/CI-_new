@@ -318,7 +318,7 @@ class Home extends BaseController
 		if ($model->save($feedback) === true) {
 			$msg = "我們收到您的表單囉!";
 			echo "<script type='text/javascript'>alert('$msg');location.assign('/cont')</script>";
-			 $this->sendmail($receive);
+			 //$this->sendmail($receive);
 		} else {
 			echo view('contact',['errors' => $model->errors()]);
 		}

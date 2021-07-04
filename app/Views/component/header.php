@@ -130,7 +130,7 @@
                   </div>
                 </div>
                 <div class="form-group probootstrap-or">
-                  <span><em>or</em></span>
+                  <!-- <span><em>or</em></span> -->
                   <?php if ($haserr) : ?>
                     <div class="alert alert-danger">
                    <?php foreach ($session -> get('LogiError') as  $error) : ?>
@@ -141,9 +141,9 @@
                 </div>
                 <div class="form-group">
                   <div class="row">
-                    <div class="col-md-12">
+                    <!-- <div class="col-md-12">
                       <button class="btn btn-primary btn-ghost btn-block btn-connect-facebook"><span>connect with</span> Facebook</button>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </form>
