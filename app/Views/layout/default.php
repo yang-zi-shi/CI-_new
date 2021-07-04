@@ -47,6 +47,7 @@
     .galaxy:hover{
       font-size:30px;
     }
+
     </style>
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>

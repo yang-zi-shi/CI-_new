@@ -76,7 +76,7 @@
                 <div class="form-group">
                   <div class="row">
                     <div class="col-md-12">
-                      <a class="btn btn-primary btn-ghost btn-block btn-connect-facebook" href="/fblogin"><span>connect with</span> Facebook</a>
+                    <a class="btn btn-primary btn-ghost btn-block btn-connect-facebook" data-toggle="modal" data-target="#signupModal" href="#"><span>尚未註冊</span> 請先註冊</a>
                     </div>
                   </div>
                 </div>
